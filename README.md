@@ -37,7 +37,7 @@ Inside `settings.json`
   },
 ```
 
-### React (without Next.js): JS
+### React (without Next.js): JavaScript Support
 
 Install dependencies:
 ```
@@ -62,7 +62,7 @@ Inside `.prettierrc`
 }
 ```
 
-### Node.js: JS
+### Node.js: JavaScript Support
 
 Install dependencies:
 ```
