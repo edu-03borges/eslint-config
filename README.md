@@ -14,6 +14,18 @@
 
 ## Required >= React v18.0
 
+## Install Extension in Vscode ESLint and Uninstall Prettier
+
+Install EsLint:
+```
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+```
+
+Uninstall Prettier:
+```
+[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+```
+
 ## Configuration File Prettier
 
 You can configure Prettier via (in order of precedence):
