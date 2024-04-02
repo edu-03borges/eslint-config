@@ -34,6 +34,15 @@ Inside `.eslintrc.json`
 
 ### Node.js
 
+Install dependencies:
+```
+npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard --save-dev
+```
+OR
+```
+yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard --dev
+```
+
 Inside `.eslintrc.json`
 ```
 {
