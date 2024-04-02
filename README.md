@@ -14,7 +14,7 @@
 
 ## Required >= React v18.0
 
-### Install ESLint, Prettier e Tailwind CSS
+### React (without Next.js)
 
 Install dependencies:
 ```
@@ -24,9 +24,6 @@ OR
 ```
 yarn add eslint prettier prettier-plugin-tailwindcss eslint-plugin-prettier eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-n eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks babel-eslint eslint-config-standard eslint-plugin-standard --dev
 ```
-
-### React (without Next.js)
-
 Inside `.eslintrc.json`
 ```
 {
