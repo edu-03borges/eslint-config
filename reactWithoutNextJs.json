@@ -16,7 +16,7 @@
     "ecmaFeatures": {
       "jsx": true // Habilita o suporte para JSX
     },
-    "ecmaVersion": "latest", // Define a versão mais recente do ECMAScript
+    "ecmaVersion": "latest" // Define a versão mais recente do ECMAScript
     // "sourceType": "module" // Indica que o código é ECMAScript de módulo
   },
   "plugins": [
