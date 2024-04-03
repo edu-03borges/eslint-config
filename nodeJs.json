@@ -6,20 +6,13 @@
   "extends": [
     "standard", // Usa as configurações padrão do StandardJS
     "plugin:prettier/recommended", // Integra o Prettier ao ESLint para formatação automática de código
-    "plugin:adonis/typescriptApp", // Estendendo configurações fornecidas pelo plugin adonis para desenvolvimento de aplicações AdonisJS em TypeScript
     "plugin:@typescript-eslint/recommended" // Extensão recomendada do ESLint para projetos TypeScript
   ],
   "parser": "@typescript-eslint/parser", // Indica ao ESLint qual parser ele deve usar para analisar o código TypeScript
   "parserOptions": {
     "ecmaVersion": "latest", // Define a versão mais recente do ECMAScript
-    "sourceType": "module" // Indica que o código é ECMAScript de módulo
+    // "sourceType": "module" // Indica que o código é ECMAScript de módulo
   },
-  "overrides": [
-    {
-      "files": ["*.js"], // Extensões de arquivos
-      "parser": "babel-eslint" // Define o parser Babel para arquivos JavaScript
-    }
-  ],
   "plugins": ["@typescript-eslint"], // Indica ao ESLint que ele deve carregar e usar o plugin @typescript-eslint
   "rules": {
     "prettier/prettier": [ // Configurações do Prettier integradas ao ESLint
