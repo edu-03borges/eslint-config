@@ -63,7 +63,7 @@ yarn add eslint prettier prettier-plugin-tailwindcss eslint-plugin-prettier esli
 
 Inside `.eslintrc.json`
 ```
-  Copy content from reactWithoutNextJs.json
+Copy content from reactWithoutNextJs.json
 ```
 
 Inside `.prettierrc`
@@ -86,5 +86,5 @@ yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-pl
 
 Inside `.eslintrc.json`
 ```
-  Copy content from nodeJs.json
+Copy content from nodeJs.json
 ```
