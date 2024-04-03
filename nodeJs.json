@@ -30,7 +30,7 @@
         "singleQuote": true, // Usa aspas simples em vez de duplas
         "trailingComma": "all", // Adiciona vírgula final em arrays e objetos literais
         "arrowParens": "always", // Adiciona parênteses em torno dos argumentos de função de seta
-        "semi": false, // Não utiliza ponto e vírgula no final das linhas
+        "semi": true, // Exige ponto e vírgula no final das linhas
         "endOfLine": "auto" // Usa a quebra de linha do sistema operacional
       }
     ],
