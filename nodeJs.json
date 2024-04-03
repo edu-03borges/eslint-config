@@ -15,7 +15,6 @@
   },
   "plugins": ["@typescript-eslint"], // Indica ao ESLint que ele deve carregar e usar o plugin @typescript-eslint
   "rules": {
-    "@typescript-eslint/no-var-requires": "off", // Regra do ESLint para projetos TypeScript que impõe a utilização de import em vez de require
     "prettier/prettier": [ // Configurações do Prettier integradas ao ESLint
       "error",
       {
