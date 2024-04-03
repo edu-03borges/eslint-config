@@ -49,7 +49,7 @@ Inside `settings.json`
   },
 ```
 
-### React (without Next.js): JavaScript And TypeScript Support
+### React (without Next.js): TypeScript Support
 
 Install dependencies:
 ```
@@ -72,7 +72,7 @@ Inside `.prettierrc`
 }
 ```
 
-### Node.js: JavaScript And TypeScript Support
+### Node.js: TypeScript Support
 
 Install dependencies:
 ```
