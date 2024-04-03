@@ -49,11 +49,11 @@ Inside `settings.json`
   },
 ```
 
-### React (without Next.js): JavaScript Support
+### React (without Next.js): JavaScript And TypeScript Support
 
 Install dependencies:
 ```
-npm install eslint prettier prettier-plugin-tailwindcss eslint-plugin-prettier eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-n eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks babel-eslint eslint-config-standard eslint-plugin-standard --save-dev
+npm install eslint prettier prettier-plugin-tailwindcss eslint-plugin-prettier eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-n eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks babel-eslint eslint-config-standard eslint-plugin-standard @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
 ```
 OR
 ```
@@ -74,15 +74,15 @@ Inside `.prettierrc`
 }
 ```
 
-### Node.js: JavaScript Support
+### Node.js: JavaScript And TypeScript Support
 
 Install dependencies:
 ```
-npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard --save-dev
+npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-adonis --save-dev
 ```
 OR
 ```
-yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard --dev
+yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-adonis --dev
 ```
 
 Inside `.eslintrc.json`
