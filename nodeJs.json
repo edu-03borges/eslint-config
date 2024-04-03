@@ -40,5 +40,6 @@
     "import/parsers": { // Define os parsers a serem usados para analisar importações
       "@typescript-eslint/parser": [".ts", ".tsx", ".d.ts"] // Define o parser para arquivos TypeScript e suas extensões
     }
-  }
+  },
+  "ignorePatterns": ["node_modules"] // Ignora a análise de arquivos na pasta node_modules
 }
