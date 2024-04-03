@@ -13,7 +13,7 @@
 
 ## Setup
 
-## Required >= React v18.0
+## Required >= React v18.0 And >= Node Js v18.0
 
 ## Install Extension in Vscode ESLint and Uninstall Prettier
 
