@@ -9,6 +9,7 @@
 - ESLint;
 - Prettier;
 - Tailwind CSS;
+- AdonisJS;
 
 ## Setup
 
