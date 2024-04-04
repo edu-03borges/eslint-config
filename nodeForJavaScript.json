@@ -9,8 +9,8 @@
   ],
   "parser": "espree", // Indica ao ESLint qual parser ele deve usar para analisar o código JavaScript
   "parserOptions": {
-    "ecmaVersion": "latest" // Define a versão mais recente do ECMAScript
-    // "sourceType": "module" // Indica que o código é ECMAScript de módulo
+    "ecmaVersion": "latest", // Define a versão mais recente do ECMAScript
+    "sourceType": "module" // Indica que o código é ECMAScript de módulo
   },
   "rules": {
     "prettier/prettier": [ // Configurações do Prettier integradas ao ESLint
