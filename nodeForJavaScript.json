@@ -25,7 +25,7 @@
         "endOfLine": "auto" // Usa a quebra de linha do sistema operacional
       }
     ],
-    "quotes": ["error", "double"], // Defina o uso de aspas duplas
+    "quotes": ["error", "double"], // Define o uso de aspas duplas
     "semi": ["error", "always"] // Exige o uso de ponto e vírgula em todas as declarações
   },
   "ignorePatterns": ["node_modules"] // Ignora a análise de arquivos na pasta node_modules
