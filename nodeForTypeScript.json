@@ -10,8 +10,8 @@
   ],
   "parser": "@typescript-eslint/parser", // Indica ao ESLint qual parser ele deve usar para analisar o código TypeScript
   "parserOptions": {
-    "ecmaVersion": "latest" // Define a versão mais recente do ECMAScript
-    // "sourceType": "module" // Indica que o código é ECMAScript de módulo
+    "ecmaVersion": "latest", // Define a versão mais recente do ECMAScript
+    "sourceType": "module" // Indica que o código é ECMAScript de módulo
   },
   "plugins": ["@typescript-eslint"], // Indica ao ESLint que ele deve carregar e usar o plugin @typescript-eslint
   "rules": {
