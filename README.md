@@ -68,7 +68,8 @@ Copy content from reactWithoutNextJsForTypeScript.json
 Inside `.prettierrc`
 ```
 {
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "singleQuote": false
 }
 ```
 
@@ -81,6 +82,13 @@ npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint
 OR
 ```
 yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-n eslint-plugin-import eslint-plugin-promise babel-eslint eslint-config-standard eslint-plugin-standard @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-adonis --dev
+```
+
+Inside `.prettierrc`
+```
+{
+  "singleQuote": false
+}
 ```
 
 ### React (without Next.js): JavaScript Support
@@ -102,7 +110,8 @@ Copy content from reactWithoutNextJsForJavaScript.json
 Inside `.prettierrc`
 ```
 {
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "singleQuote": false
 }
 ```
 
@@ -120,4 +129,11 @@ yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-pl
 Inside `.eslintrc.json`
 ```
 Copy content from nodeForJavaScript.json
+```
+
+Inside `.prettierrc`
+```
+{
+  "singleQuote": false
+}
 ```
