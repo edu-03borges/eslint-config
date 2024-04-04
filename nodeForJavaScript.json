@@ -7,7 +7,7 @@
     "standard", // Usa as configurações padrão do StandardJS
     "plugin:prettier/recommended" // Integra o Prettier ao ESLint para formatação automática de código
   ],
-  "parser": "babel-eslint", // Indica ao ESLint qual parser ele deve usar para analisar o código JavaScript
+  "parser": "espree", // Indica ao ESLint qual parser ele deve usar para analisar o código JavaScript
   "parserOptions": {
     "ecmaVersion": "latest" // Define a versão mais recente do ECMAScript
     // "sourceType": "module" // Indica que o código é ECMAScript de módulo
