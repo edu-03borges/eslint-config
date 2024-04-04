@@ -1,6 +1,6 @@
 {
   "env": {
-    "es2021": true, // Habilita as funcionalidades do ECMAScript 2021
+    "es2024": true, // Habilita as funcionalidades do ECMAScript 2024
     "node": true    // Habilita variáveis e métodos globais do Node.js
   },
   "extends": [
