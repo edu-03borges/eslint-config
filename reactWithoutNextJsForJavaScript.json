@@ -36,7 +36,7 @@
       {
         "printWidth": 100, // Largura máxima da linha
         "tabWidth": 2, // Tamanho da tabulação
-        "singleQuote": true, // Usa aspas simples em vez de duplas
+        "singleQuote": false, // Usa aspas duplas em vez de simples
         "trailingComma": "all", // Adiciona vírgula final em arrays e objetos literais
         "arrowParens": "always", // Adiciona parênteses em torno dos argumentos de função de seta
         "semi": true, // Exige ponto e vírgula no final das linhas
