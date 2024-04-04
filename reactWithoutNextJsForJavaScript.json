@@ -51,7 +51,7 @@
         "img": ["Image"] // Avisa quando a propriedade alt estiver ausente ou vazia
       }
     ],
-    "quotes": ["error", "double"], // Defina o uso de aspas duplas 
+    "quotes": ["error", "double"], // Define o uso de aspas duplas
     "semi": ["error", "always"] // Exige o uso de ponto e vírgula em todas as declarações
   },
   "settings": {
