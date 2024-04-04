@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": true, // Define que o ambiente de execução é o navegador
-    "es2021": true, // Habilita as funcionalidades do ECMAScript 2021
+    "es2024": true, // Habilita as funcionalidades do ECMAScript 2024
     "jest": true // Habilita as variáveis globais do Jest para testes unitários
   },
   "extends": [
@@ -53,6 +53,7 @@
         "img": ["Image"] // Avisa quando a propriedade alt estiver ausente ou vazia
       }
     ],
+    "quotes": ["error", "double"], // Defina o uso de aspas duplas 
     "semi": ["error", "always"] // Exige o uso de ponto e vírgula em todas as declarações
   },
   "settings": {
