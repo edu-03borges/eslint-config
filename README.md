@@ -46,7 +46,18 @@ Inside `settings.json`
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
-  },
+  }
+```
+
+## Configuration `package.json`
+
+Inside `package.json`
+```
+{
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  }
+}
 ```
 
 ### React (without Next.js): TypeScript Support
