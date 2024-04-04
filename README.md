@@ -68,8 +68,7 @@ Copy content from reactWithoutNextJsForTypeScript.json
 Inside `.prettierrc`
 ```
 {
-  "plugins": ["prettier-plugin-tailwindcss"],
-  "singleQuote": false
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
 ```
 
